@@ -1,0 +1,11 @@
+﻿  Home.cpp
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\Home.cpp(16,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\Home.cpp(16,6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  VaccineCert.cpp
+  Generating Code...
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\CreateUser.h(481,1): warning C4715: 'CS106A2::CreateUser::validateField': not all control paths return a value
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\CreateUser.h(481,1): warning C4715: 'CS106A2::CreateUser::validateField': not all control paths return a value
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\Sign_in.h(342,1): warning C4715: 'CS106A2::Sign_in::validateField': not all control paths return a value
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\MyForm.h(667,1): warning C4715: 'CS106A2::MyForm::validateField': not all control paths return a value
+  CreateTestResult.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CS106_A2.vcxproj -> C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\x64\Debug\CS106_A2.exe

@@ -1,0 +1,105 @@
+  CS106A2.CreateTestResult.resources - Embedded, ContainedInManifestFile, 
+  CS106A2.CreateUser.resources - Embedded, ContainedInManifestFile, 
+  CS106A2.Home.resources - Embedded, ContainedInManifestFile, 
+  CS106A2.MyForm.resources - Embedded, ContainedInManifestFile, 
+  CS106A2.MyHuh.resources - Embedded, ContainedInManifestFile, 
+  CS106A2.MyQRCode.resources - Embedded, ContainedInManifestFile, 
+  CS106A2.Sign_in.resources - Embedded, ContainedInManifestFile, 
+  CS106A2.TestResultForm.resources - Embedded, ContainedInManifestFile, 
+  CS106A2.VaccineCert.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CS106_A2, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CS106A2.CreateTestResult: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String _userName : Public
+  Methods:
+    validatedtp(): PrivateScope, Public, HideBySig
+Class CS106A2.CreateUser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    validateField(TextBox, String): PrivateScope, Public, HideBySig
+    validateDateofbirth(DateTimePicker): PrivateScope, Public, HideBySig
+    uniqueUserName(String): PrivateScope, Public, HideBySig
+Class CS106A2.Sign_in: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean _admin : Public
+  Methods:
+    getUserName(): PrivateScope, Public, HideBySig
+    validateField(TextBox, String): PrivateScope, Public, HideBySig
+Class CS106A2.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String _userName : Public
+    Boolean admin : Public
+  Methods:
+    loadListBox(): PrivateScope, Public, HideBySig
+    loadDetails(String): PrivateScope, Public, HideBySig
+    validComboBoxValue(ComboBox): PrivateScope, Public, HideBySig
+    validateField(TextBox, String): PrivateScope, Public, HideBySig
+    validateDateofbirth(DateTimePicker): PrivateScope, Public, HideBySig
+    enableFields(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+Class CS106A2.MyHuh: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CS106A2.TestResultForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String _userName : Public
+    System.String _testResultStr : Public
+    Boolean _admin : Public
+  Methods:
+    loadListBox(): PrivateScope, Public, HideBySig
+    loadResultList(String): PrivateScope, Public, HideBySig
+Class CS106A2.VaccineCert: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String _userName : Public
+    System.String filePath : Public
+    Boolean _admin : Public
+  Methods:
+    loadListBox(): PrivateScope, Public, HideBySig
+    loadImage(String): PrivateScope, Public, HideBySig
+    deleteImage(): PrivateScope, Public, HideBySig
+Class CS106A2.MyQRCode: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CS106A2.Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    User _userDetail : Public
+    System.String userName : Public
+    Boolean _admin : Public
+  Methods:
+    loadUserDetails(): PrivateScope, Public, HideBySig
+Class CS106A2.Home+User: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String _firstName : Public
+    System.String _lastName : Public
+    System.String _phnNumber : Public
+    System.String _email : Public
+    System.String _dob : Public
+    System.String _userName : Public
+    System.String _password : Public

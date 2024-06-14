@@ -1,0 +1,11 @@
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106_A2.vcxproj.AssemblyReference.cache
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.CreateTestResult.resources
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.CreateUser.resources
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.Home.resources
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.MyForm.resources
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.Sign_in.resources
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.TestResultForm.resources
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.VaccineCert.resources
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106_A2.vcxproj.GenerateResource.cache
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.MyHuh.resources
+C:\Users\Taih\Documents\YooBee2023-2024-backup\CS106\A2\CS106_A2\CS106_A2\x64\Debug\CS106A2.MyQRCode.resources
